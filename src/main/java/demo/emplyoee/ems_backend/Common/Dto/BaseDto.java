@@ -10,7 +10,7 @@ import java.util.Date;
 @Setter
 @ToString
 public class BaseDto {
-    private Long id;
+    protected Long id;
     private Date createdDate;
     private Date lastUpdatedDate;
 }
