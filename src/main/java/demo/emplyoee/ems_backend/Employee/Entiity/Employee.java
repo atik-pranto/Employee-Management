@@ -19,9 +19,6 @@ public class Employee extends BaseEntity {
 
     private String firstName;
     private String lastName;
-
     @Column(nullable = false)
     private String email;
-
-
 }
