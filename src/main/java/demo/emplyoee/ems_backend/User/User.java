@@ -1,6 +1,7 @@
 package demo.emplyoee.ems_backend.User;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -11,6 +12,7 @@ import java.util.Collection;
 
 @Getter
 @Setter
+@Builder
 @RequiredArgsConstructor
 @Entity
 public class User implements UserDetails {
